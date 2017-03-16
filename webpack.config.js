@@ -7,6 +7,7 @@ const yaml = require('js-yaml');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 const isTest = process.env.NODE_ENV == 'test';
 const isProduction = process.env.NODE_ENV === 'production';
@@ -114,6 +115,7 @@ module.exports = {
             }
         ]
     },
+    postcss: [autoprefixer],
     plugins: _.compact([
         new ExtractTextPlugin(libraryName + '.css', { allChunks: true }),
         new webpack.DefinePlugin({
