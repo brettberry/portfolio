@@ -75,12 +75,6 @@ module.exports = {
             //     enforce: 'pre'
             // },
             {
-                test: /\.tsx?$/,
-                loaders: _.compact([ (isDev && !isTest) && 'react-hot', 'babel', 'ts']),
-                exclude: /node_modules/,
-                presets: ['react']
-            },
-            {
                 test: /\.jsx?$/,
                 loaders: _.compact([ (isDev && !isTest) && 'react-hot', 'babel']),
                 exclude: /node_modules/,
@@ -113,6 +107,10 @@ module.exports = {
             {
                 test: /\.(jpg|png)$/,
                 loader: 'file?name=[name].[ext]'
+            },
+            {
+                test: /(\.scss)$/,
+                loader: ExtractTextPlugin.extract('style', 'css!postcss!sass')
             }
         ]
     },

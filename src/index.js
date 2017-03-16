@@ -2,8 +2,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Promise from 'bluebird';
-
-import RouteProvider from './RouteProvider';
+import App from './App';
 
 Promise.config({
     cancellation: true,
@@ -12,8 +11,5 @@ Promise.config({
     }
 });
 
-const RootComponent = () => {
-    return <RouteProvider/>;
-};
 
-render(<RootComponent/>, document.getElementById('react-main'));
+render(<App/>, document.getElementById('react-main'));
