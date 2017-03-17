@@ -3,12 +3,30 @@
 .linksContainer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     margin: 25px 200px;
 
     .pageNavigation {
         font-size: 0.9em;
         margin: 0;
+        color: $gray;
+        cursor: pointer;
+
+        &:hover {
+            color: $teal;
+        }
+    }
+
+    .githubIcon {
+        width: 25px;
+        height: 25px;
+        fill: $gray;
+
+        &:hover {
+            cursor: pointer;
+            fill: $teal;
+        }
     }
 }
 

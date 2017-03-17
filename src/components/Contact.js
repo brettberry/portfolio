@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import FaGithub from 'react-icons/lib/fa/github';
 import './contact.styles.scss';
 
 class Contact extends Component {

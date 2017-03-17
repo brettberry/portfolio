@@ -1,9 +1,7 @@
 
 import React, { Component } from 'react';
 import FaCode from 'react-icons/lib/fa/code';
-
-import FaMedium from 'react-icons/lib/fa/medium';
-import FaMapMarker from 'react-icons/lib/fa/map-marker';
+import FaGithub from 'react-icons/lib/fa/github';
 
 import { Welcome, FreelanceProjects, HobbyProjects, Education, Hobbies, Contact } from '~/components';
 import './app.styles.scss';
@@ -17,7 +15,9 @@ class App extends Component {
                     <h3 className="pageNavigation">Hobby Projects</h3>
                     <h3 className="pageNavigation">Education</h3>
                     <h3 className="pageNavigation">About</h3>
-                    <h3 className="pageNavigation">Contact</h3>
+                    <a target="_blank" href="https://github.com/brettberry">
+                        <FaGithub className="githubIcon"/>
+                    </a>
                 </div>
                 <div className="horizontalRule"/>
                 <h1 className="name">Brett Berry</h1>

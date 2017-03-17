@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import map from 'lodash/map';
 
 import ProjectCollection from '~/models/ProjectCollection';
-import data from '~/data.json';
 import Project from './Project';
+import data from '~/data.json';
 import './freelanceProjects.styles.scss';
 import '~/app.styles.scss';
 

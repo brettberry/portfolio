@@ -1,6 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 import map from 'lodash/map';
-
 import FaCode from 'react-icons/lib/fa/code';
 import FaGithub from 'react-icons/lib/fa/github';
 import './project.styles.scss';

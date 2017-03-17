@@ -34,6 +34,8 @@
     display: flex;
 
     &:hover {
+        cursor: pointer;
+        
         .icon {
             fill: $teal;
         }
