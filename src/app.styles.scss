@@ -9,6 +9,10 @@
 
 .name {
     @include main-header-style;
+
+    @include mobile {
+        font-size: 4em;
+    }
 }
 
 .horizontalRule {
@@ -22,6 +26,10 @@
     flex-direction: column;
     width: 55%;
     margin: 25px;
+
+    @include mobile {
+        width: 90%;
+    }
 }
 
 .welcomeSection {
@@ -34,6 +42,14 @@
     .welcome {
         @include section-header-style;
         text-align: center;
+
+        @include mobile {
+            font-size: 2em;
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
     }
 }
 
@@ -48,6 +64,7 @@
     .subheader {
         @include section-header-style;
         width: 100%;
+        padding: 0 10px;
 
         &.left {
             text-align: left;
@@ -71,6 +88,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 25px;
+
+    @include mobile {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 p {

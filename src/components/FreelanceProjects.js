@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
+import map from 'lodash/map';
+
+import ProjectCollection from '~/models/ProjectCollection';
+import data from '~/data.json';
+import Project from './Project';
 import './freelanceProjects.styles.scss';
 import '~/app.styles.scss';
+
+const projects = new ProjectCollection(data.freelance);
 
 class FreelanceProjects extends Component {
     render() {
@@ -8,15 +15,14 @@ class FreelanceProjects extends Component {
             <div className="section">
                 <h2 className="subheader left">Freelance Projects</h2>
                 <div className="projectContainer">
-                    <div className="project">
-                        <h3>Project 1</h3>
-                    </div>
-                    <div className="project">
-                        <h3>Project 1</h3>
-                    </div>
-                    <div className="project">
-                        <h3>Project 1</h3>
-                    </div>
+                {map(projects.toArray(), (project, key) =>
+                    <Project title={project.getTitle()}
+                             clients={project.getClient()}
+                             status={project.getStatus()}
+                             date={project.getDate()}
+                             description={project.getDescription()}
+                             key={key}/>
+                )}
                 </div>
             </div>
         );

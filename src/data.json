@@ -1,0 +1,73 @@
+{
+    "freelance": [
+        {
+            "title": "Berry Game Calls eCommerce Website",
+            "client": "Berry Game Calls",
+            "status": "In Progress",
+            "date": "October 2016 - Present",
+            "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
+            "github": "https://github.com/brettberry/bgc",
+            "description": "",
+            "tech": ["React", "Braintree Payment API", "React Router", "Immutable.js", "Sass"]
+        },
+        {
+            "title": "Doodle App",
+            "client": "Laser Monkey",
+            "status": "In Progress",
+            "date": "February 2017 - Present",
+            "demo": "",
+            "github": "",
+            "description": "",
+            "tech": ["WebGL", "React", "Redux", "Radium", "React Router", "Electron"]
+        },
+        {
+            "title": "Instagram & Twitter Event Photo App",
+            "client": "Laser Monkey, Jeep, X-Games",
+            "status": "Completed",
+            "date": "January 2017",
+            "demo": "",
+            "github": "",
+            "description": "",
+            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron"]
+        },
+        {
+            "title": "Energy Code Etching App",
+            "client": "Laser Monkey",
+            "status": "Completed",
+            "date": "February 2017",
+            "demo": "",
+            "github": "",
+            "description": "",
+            "tech": ["React", "Google Sheets API", "Bootstrap"]
+        }
+    ],
+    "hobby": [
+        {
+            "title": "Basketball Shooter iOS App",
+            "status": "Completed",
+            "date": "August 2016",
+            "demo": "",
+            "github": "https://github.com/brettberry/bballGameDemo",
+            "description": "",
+            "tech": ["Swift", "SpriteKit"]
+        },
+        {
+            "title": "Archey Target iOS App",
+            "status": "Completed",
+            "date": "September 2016",
+            "demo": "",
+            "github": "https://github.com/brettberry/archeryShooter",
+            "description": "",
+            "tech": ["Swift", "SpriteKit"]
+        },
+        {
+            "title": "To Do Web App",
+            "status": "Completed",
+            "date": "October 2016",
+            "demo": "https://brettberry.github.io/List-Web-App/",
+            "github": "https://github.com/brettberry/List-Web-App",
+            "description": "",
+            "tech": ["React", "Local Forage", "Moment"]
+        }
+    ]
+}

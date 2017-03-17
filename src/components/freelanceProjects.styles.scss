@@ -6,15 +6,4 @@
     flex-basis: 50%;
     flex-wrap: wrap;
     width: 100%;
-
-    .project {
-        @include subheader-style;
-        width: calc(50% - 20px);
-        height: 300px;
-        border-radius: 12px;
-        border-color: $teal;
-        border-style: solid;
-        border-width: 1px;
-        margin: 10px;
-    }
 }

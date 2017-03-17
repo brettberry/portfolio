@@ -29,7 +29,7 @@ $teal: #00A899;
 @mixin subheader-style {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     color: $teal;
     text-align: center;
@@ -42,4 +42,10 @@ $teal: #00A899;
     letter-spacing: 2px;
     line-height: 1.5;
     color: $teal;
+}
+
+@mixin mobile {
+  @media all and (max-width: 850px) {
+    @content;
+  }
 }
