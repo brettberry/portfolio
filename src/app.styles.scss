@@ -1,5 +1,17 @@
 @import './constants';
 
+.linksContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 25px 200px;
+
+    .pageNavigation {
+        font-size: 0.9em;
+        margin: 0;
+    }
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -21,38 +33,6 @@
     background-color: $teal;
 }
 
-.textContainer {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    margin: 25px;
-
-    @include mobile {
-        width: 90%;
-    }
-}
-
-.welcomeSection {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px 0;
-    width: 90%;
-
-    .welcome {
-        @include section-header-style;
-        text-align: center;
-
-        @include mobile {
-            font-size: 2em;
-        }
-    }
-
-    @include mobile {
-        flex-direction: column;
-    }
-}
-
 .section {
     display: flex;
     flex-direction: column;
@@ -65,40 +45,83 @@
         @include section-header-style;
         width: 100%;
         padding: 0 10px;
+        text-align: left;
 
-        &.left {
-            text-align: left;
+        @include mobile {
+            font-size: 2em;
+            text-align: center;
         }
     }
 
     .text {
-        margin-bottom: 0;
         text-align: center;
     }
 }
 
-.profilePic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: $teal;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 25px;
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+}
 
-    @include mobile {
-        width: 250px;
-        height: 250px;
+.sourceContainer {
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+
+    &:hover {
+        .icon {
+            fill: $teal;
+        }
+
+        .footer {
+            color: $teal;
+        }
     }
+
+    .footer {
+        color: $gray;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+        fill: $gray;
+        margin: 0 5px;
+    }
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+
+    .contactIcon {
+        width: 50px;
+        height: 50px;
+        fill: $teal;
+    }
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cap {
+    width: 50px;
+    height: 50px;
+    fill: $teal;
 }
 
 p {
     @include text-style;
     margin-bottom: 0;
     text-align: center;
+}
+
+h2 {
+    @include subheader-style;
+    font-size: 1.5em;
 }
 
 h3 {

@@ -5,7 +5,7 @@ class Hobbies extends Component {
     render() {
         return (
             <div className="section">
-                <h2 className="subheader">Hobbies</h2>
+                <h2 className="subheader">Non-code Hobbies</h2>
             </div>
         );
     }

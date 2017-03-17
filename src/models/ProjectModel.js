@@ -14,10 +14,6 @@ export default class ProductModel extends Model {
         return this.get('clientURL');
     }
 
-    getStatus() {
-        return this.get('status');
-    }
-
     getDate() {
         return this.get('date');
     }

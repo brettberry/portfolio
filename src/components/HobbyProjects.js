@@ -18,7 +18,8 @@ class HobbyProjects extends Component {
                     <Project title={project.getTitle()}
                              date={project.getDate()}
                              description={project.getDescription()}
-                             status={project.getStatus()}
+                             demo={project.getDemo()}
+                             github={project.getGithub()}
                              tags={project.getTech()}
                              key={key}/>
                 )}

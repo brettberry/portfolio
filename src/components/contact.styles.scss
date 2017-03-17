@@ -1,0 +1,23 @@
+@import '../constants';
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10px;
+
+    .contact {
+        margin: 0;
+    }
+
+    .adjacent {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+}

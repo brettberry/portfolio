@@ -3,21 +3,17 @@
 .project {
     @include subheader-style;
     width: calc(50% - 20px);
-    height: 400px;
     border-radius: 12px;
     border-color: $teal;
     border-style: solid;
     border-width: 1px;
+    text-align: left;
     margin: 10px;
-    padding: 0 20px;
+    padding: 25px;
 
     @include mobile {
         width: calc(100% - 20px);
     }
-}
-
-@include mobile {
-    flex-basis: 100%;
 }
 
 .details {
@@ -26,27 +22,63 @@
     align-items: flex-start;
 }
 
-.row {
+.codeLinks {
+    margin-bottom: 25px;
+
+    .link {
+        text-decoration: none;
+    }
+}
+
+.iconContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+
+    &:hover {
+        .icon {
+            fill: $teal;
+        }
+
+        .iconText {
+            color: $teal;
+        }
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+        fill: $gray;
+        margin: 5px;
+        margin-right: 10px;
+    }
+
+    .iconText {
+        @include text-style;
+        font-weight: 300;
+        font-size: 1em;
+        color: $gray;
+        text-align: left;
+        margin: 0;
+    }
 }
 
 .detail {
     @include text-style;
-    align-self: flex-end;
+    text-align: left;
     font-size: 1em;
     margin: 0;
 }
 
 .description {
     @include text-style;
+    font-size: 1em;
+    text-align: left;
+    margin: 25px 0;
 }
 
 .tags {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tagContainer {
@@ -61,5 +93,6 @@
         text-align: center;
         text-transform: lowercase;
         color: white;
+        white-space: nowrap;
     }
 }

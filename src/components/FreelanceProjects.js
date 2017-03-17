@@ -18,9 +18,10 @@ class FreelanceProjects extends Component {
                 {map(projects.toArray(), (project, key) =>
                     <Project title={project.getTitle()}
                              clients={project.getClient()}
-                             status={project.getStatus()}
                              date={project.getDate()}
                              description={project.getDescription()}
+                             demo={project.getDemo()}
+                             github={project.getGithub()}
                              tags={project.getTech()}
                              key={key}/>
                 )}

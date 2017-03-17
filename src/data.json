@@ -3,37 +3,33 @@
         {
             "title": "Berry Game Calls eCommerce Website",
             "client": "Berry Game Calls",
-            "status": "In Progress",
             "date": "October 2016 - Present",
             "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
             "github": "https://github.com/brettberry/bgc",
-            "description": "",
+            "description": "I am currently working on building a custom website for my parents family business. ",
             "tech": ["React", "Braintree Payment API", "React Router", "Immutable", "Sass"]
         },
         {
             "title": "Doodle App",
             "client": "Laser Monkey",
-            "status": "In Progress",
             "date": "February 2017 - Present",
             "demo": "",
             "github": "",
             "description": "",
-            "tech": ["WebGL", "React", "Redux", "Radium", "React Router", "Electron"]
+            "tech": ["WebGL", "React", "Redux", "Radium", "React Router","Immutable", "Electron App"]
         },
         {
             "title": "Instagram & Twitter Event Photo App",
             "client": "Laser Monkey, Jeep, X-Games",
-            "status": "Completed",
             "date": "January 2017",
             "demo": "",
             "github": "",
             "description": "",
-            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron"]
+            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App"]
         },
         {
             "title": "Energy Code Etching App",
             "client": "Laser Monkey",
-            "status": "Completed",
             "date": "February 2017",
             "demo": "",
             "github": "",
@@ -44,7 +40,6 @@
     "hobby": [
         {
             "title": "Basketball Shooter iOS App",
-            "status": "Completed",
             "date": "August 2016",
             "demo": "",
             "github": "https://github.com/brettberry/bballGameDemo",
@@ -53,7 +48,6 @@
         },
         {
             "title": "Archey Target iOS App",
-            "status": "Completed",
             "date": "September 2016",
             "demo": "",
             "github": "https://github.com/brettberry/archeryShooter",
@@ -62,12 +56,11 @@
         },
         {
             "title": "To Do Web App",
-            "status": "Completed",
             "date": "October 2016",
             "demo": "https://brettberry.github.io/List-Web-App/",
             "github": "https://github.com/brettberry/List-Web-App",
             "description": "",
-            "tech": ["React", "Local Forage", "Moment"]
+            "tech": ["React", "Redux", "Local Forage", "Moment"]
         }
     ]
 }

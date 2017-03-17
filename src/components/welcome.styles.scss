@@ -1,0 +1,52 @@
+@import '../constants';
+
+.welcomeSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
+
+    .welcome {
+        @include section-header-style;
+        text-align: center;
+
+        @include mobile {
+            font-size: 2em;
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.profilePic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $teal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px;
+
+    @include mobile {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 25px;
+
+    @include mobile {
+        width: 90%;
+        margin: 0;
+    }
+}
