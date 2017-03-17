@@ -19,6 +19,7 @@ class HobbyProjects extends Component {
                              date={project.getDate()}
                              description={project.getDescription()}
                              status={project.getStatus()}
+                             tags={project.getTech()}
                              key={key}/>
                 )}
                 </div>

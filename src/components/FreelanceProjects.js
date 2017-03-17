@@ -21,6 +21,7 @@ class FreelanceProjects extends Component {
                              status={project.getStatus()}
                              date={project.getDate()}
                              description={project.getDescription()}
+                             tags={project.getTech()}
                              key={key}/>
                 )}
                 </div>

@@ -43,3 +43,23 @@
 .description {
     @include text-style;
 }
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tagContainer {
+    background-color: $teal;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+
+    .tag {
+        font-size: 0.8em;
+        font-weight: 100;
+        text-align: center;
+        text-transform: lowercase;
+        color: white;
+    }
+}

@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import map from 'lodash/map';
 import './project.styles.scss';
 
 class Project extends Component {
@@ -13,7 +14,7 @@ class Project extends Component {
     }
 
     render() {
-        const { title, clients, status, date, description, key } = this.props;
+        const { title, clients, status, date, description, tags, key } = this.props;
         return (
             <div className="project" key={key}>
                 <h3>{title}</h3>
@@ -25,6 +26,13 @@ class Project extends Component {
                     <span className="detail">Status: {status}</span>
                     <div>
                         <p className="description">{description}</p>
+                    </div>
+                    <div className="tags">
+                    {map(tags, (tag, index) =>
+                        <div className="tagContainer" key={index}>
+                            <span className="tag">{tag}</span>
+                        </div>
+                    )}
                     </div>
                 </div>
             </div>
