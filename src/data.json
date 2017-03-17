@@ -6,7 +6,7 @@
             "date": "October 2016 - Present",
             "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
             "github": "https://github.com/brettberry/bgc",
-            "description": "I am currently working on building a custom website for my parents family business. ",
+            "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with full page product pages, search, product categories,  an easily accessible shopping cart, a video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a login for wholesale retailers to replace their current fax and phone system. The project is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explore coming soon.",
             "tech": ["React", "Braintree Payment API", "React Router", "Immutable", "Sass"]
         },
         {
@@ -39,11 +39,19 @@
     ],
     "hobby": [
         {
+            "title": "To Do Web App",
+            "date": "October 2016",
+            "demo": "https://brettberry.github.io/List-Web-App/",
+            "github": "https://github.com/brettberry/List-Web-App",
+            "description": "",
+            "tech": ["React", "Redux", "Local Forage", "Moment"]
+        },
+        {
             "title": "Basketball Shooter iOS App",
             "date": "August 2016",
             "demo": "",
             "github": "https://github.com/brettberry/bballGameDemo",
-            "description": "",
+            "description": "My own implementation of one level of Ketchapp's Basketball game built with gesture recognizers to simulate tossing the basketball, basic collision physics, scorekeeping and a shot clock.",
             "tech": ["Swift", "SpriteKit"]
         },
         {
@@ -51,16 +59,8 @@
             "date": "September 2016",
             "demo": "",
             "github": "https://github.com/brettberry/archeryShooter",
-            "description": "",
+            "description": "Further exploration of SpriteKit...",
             "tech": ["Swift", "SpriteKit"]
-        },
-        {
-            "title": "To Do Web App",
-            "date": "October 2016",
-            "demo": "https://brettberry.github.io/List-Web-App/",
-            "github": "https://github.com/brettberry/List-Web-App",
-            "description": "",
-            "tech": ["React", "Redux", "Local Forage", "Moment"]
         }
     ]
 }

@@ -4,7 +4,7 @@ import '~/app.styles.scss';
 class Hobbies extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section" id="about">
                 <h2 className="subheader">About Me</h2>
             </div>
         );

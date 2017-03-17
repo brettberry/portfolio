@@ -5,7 +5,7 @@ import '~/app.styles.scss';
 class Education extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section" id="education">
                 <h2 className="subheader">Education</h2>
                 <FaCap className="cap"/>
                 <h2 className="text">Bachelor of Science in Mathematics</h2>

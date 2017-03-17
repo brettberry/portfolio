@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './welcome.styles.scss';
 
-const intro = 'I\'m a math nerd turned self-taught front-end developer who loves combining logic and code to build beautiful web apps and solutions for you. I strive for clean, reusable code and believe your code should be as beautiful as what it produces.';
+const intro = 'I\'m a math nerd turned self-taught front-end developer who loves combining logic and code to build beautiful web apps and solutions. I strive for clean, reusable code and believe your code should be as beautiful as what it produces.';
 const callToAction = 'Check out my projects listed below, and hit me up if you like what you see!';
 
 class Welcome extends Component {

@@ -11,7 +11,7 @@ const projects = new ProjectCollection(data.hobby);
 class HobbyProjects extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section" id="hobby">
                 <h2 className="subheader left">Hobby Projects</h2>
                 <div className="projectContainer">
                 {map(projects.toArray(), (project, key) =>
