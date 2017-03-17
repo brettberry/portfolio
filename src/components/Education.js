@@ -4,7 +4,7 @@ import '~/app.styles.scss';
 class Education extends Component {
     render() {
         return (
-            <div className="projectSection">
+            <div className="section">
                 <h2 className="subheader">Education</h2>
             </div>
         );

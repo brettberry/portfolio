@@ -1,4 +1,3 @@
-
 @import './constants';
 
 .container {
@@ -9,12 +8,7 @@
 }
 
 .name {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 5em;
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: $teal;
+    @include main-header-style;
 }
 
 .horizontalRule {
@@ -23,38 +17,47 @@
     background-color: $teal;
 }
 
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 25px;
+}
+
 .welcomeSection {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 25px 50px;
+    padding: 25px 0;
+    width: 90%;
 
-    .textContainer {
-        display: flex;
-        flex-direction: column;
-        width: 55%;
-        margin: 25px;
+    .welcome {
+        @include section-header-style;
+        text-align: center;
     }
 }
 
-.subheader {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: $teal;
-}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
 
-.text {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    color: $teal;
-    margin-bottom: 0;
+    .subheader {
+        @include section-header-style;
+        width: 100%;
+
+        &.left {
+            text-align: left;
+        }
+    }
+
+    .text {
+        margin-bottom: 0;
+        text-align: center;
+    }
 }
 
 .profilePic {
@@ -68,4 +71,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 25px;
+}
+
+p {
+    @include text-style;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 {
+    @include subheader-style;
 }

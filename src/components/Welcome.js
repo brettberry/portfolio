@@ -11,7 +11,7 @@ class Welcome extends Component {
                 <div style={{ backgroundImage: 'url(/images/profilepic.jpg)' }}
                      className="profilePic"/>
                 <div className="textContainer">
-                    <h2 className="subheader">Hey there, I'm Brett!</h2>
+                    <h2 className="welcome">Hey there, I'm Brett!</h2>
                     <p className="text">{intro}</p>
                     <p className="text">{callToAction}</p>
                 </div>
