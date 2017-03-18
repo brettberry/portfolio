@@ -30,9 +30,47 @@
             font-size: 2em;
             text-align: center;
         }
+
+        &.bottom {
+            margin-bottom: 0;
+        }
     }
 
     .text {
         text-align: center;
+    }
+}
+
+.collabContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+    @include mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collab {
+        @include text-style;
+        font-size: 0.9em;
+        color: $gray;
+        margin-right: 5px;
+        white-space: nowrap;
+
+        @include mobile {
+            margin-bottom: 0;
+        }
+
+        &.git {
+            cursor: pointer;
+        }
+    }
+
+    .githubAnchor {
+        color: $gray;
     }
 }

@@ -12,7 +12,15 @@ class FreelanceProjects extends Component {
     render() {
         return (
             <div className="section" id="freelance">
-                <h2 className="subheader left">Freelance Projects</h2>
+                <h2 className="subheader bottom">Freelance Projects</h2>
+                <div className="collabContainer">
+                    <span className="collab">In collaboration with full stack engineer</span>
+                    <a target="_blank"
+                       href="https://github.com/jonbrennecke"
+                       className="githubAnchor">
+                        <span className="collab git">Jon Brennecke</span>
+                    </a>
+                </div>
                 <div className="projectContainer">
                 {map(projects.toArray(), (project, key) =>
                     <Project title={project.getTitle()}
