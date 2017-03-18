@@ -35,7 +35,7 @@
 
     &:hover {
         cursor: pointer;
-        
+
         .icon {
             fill: $teal;
         }
@@ -68,6 +68,10 @@
     text-align: left;
     font-size: 1em;
     margin: 0;
+
+    @include mobile {
+        font-size: 0.9em;
+    }
 }
 
 .description {
@@ -75,6 +79,10 @@
     font-size: 1em;
     text-align: left;
     margin: 25px 0;
+
+    @include mobile {
+        font-size: 0.9em;
+    }
 }
 
 .tags {

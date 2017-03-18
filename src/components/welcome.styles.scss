@@ -13,7 +13,7 @@
         margin: 15px;
 
         @include mobile {
-            font-size: 2em;
+            font-size: 1.5em;
         }
     }
 }
@@ -22,7 +22,7 @@
     @include main-header-style;
 
     @include mobile {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 }
 

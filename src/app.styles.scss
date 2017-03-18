@@ -21,6 +21,10 @@ p {
     @include text-style;
     margin-bottom: 0;
     text-align: center;
+
+    @include mobile {
+        font-size: 1.1em;
+    }
 }
 
 h2 {
@@ -30,4 +34,8 @@ h2 {
 
 h3 {
     @include subheader-style;
+
+    @include mobile {
+        font-size: 1.1em;
+    }
 }
