@@ -16,7 +16,7 @@
             "demo": "",
             "github": "",
             "description": "",
-            "tech": ["WebGL", "React", "Redux", "Radium", "React Router","Immutable", "Electron App"]
+            "tech": ["WebGL", "React", "Redux", "Radium", "Immutable", "Electron App"]
         },
         {
             "title": "Instagram & Twitter Event Photo App",
@@ -25,7 +25,7 @@
             "demo": "",
             "github": "",
             "description": "",
-            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass"]
+            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass", "React Router"]
         },
         {
             "title": "Energy Code Etching App",

@@ -12,7 +12,14 @@
     margin-bottom: 50px;
     align-items: center;
 
+    .degree {
+        margin: 3px 0;
+        font-weight: 300;
+    }
+
     .text {
         margin: 5px 0;
+        color: $gray;
+        font-size: 1em;
     }
 }

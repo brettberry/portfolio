@@ -13,7 +13,7 @@ class Hobbies extends Component {
                 <p className="aboutMe">When I'm not writing code and drinking coffee, you'll find me
                     playing with my dog Nelly, blogging about Math, practicing yoga, watching classic
                     movies and reruns of I Love Lucy, and on a lucky day you'll find me spending time
-                    with family and friends outdoors hiking, shooting archery, or bowhunting.
+                    with family and friends outdoors jogging, hiking, shooting archery, and maybe even bowhunting.
                 </p>
                 <div className="hobbies">
                     <a href="https://medium.com/i-math" target="_blank" className="hobbyLink">

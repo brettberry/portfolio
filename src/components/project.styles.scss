@@ -55,7 +55,7 @@
 
     .iconText {
         @include text-style;
-        font-weight: 300;
+        font-weight: 200;
         font-size: 1em;
         color: $gray;
         text-align: left;
@@ -67,8 +67,9 @@
 .detail {
     @include text-style;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0;
+    color: $gray;
 
     @include mobile {
         font-size: 0.9em;
