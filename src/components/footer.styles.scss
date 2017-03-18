@@ -1,0 +1,36 @@
+@import '../constants';
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sourceContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    cursor: pointer;
+
+    &:hover {
+        .icon {
+            fill: $teal;
+        }
+
+        .footer {
+            color: $teal;
+        }
+    }
+
+    .footer {
+        color: $gray;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+        fill: $gray;
+        margin: 0 5px;
+    }
+}

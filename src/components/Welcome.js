@@ -8,13 +8,18 @@ class Welcome extends Component {
     render() {
         return (
             <div className="welcomeSection">
-                <div style={{ backgroundImage: 'url(/images/profilepic.jpg)' }}
-                     className="profilePic"/>
-                <div className="textContainer">
-                    <h2 className="welcome">Hey there, I'm Brett!</h2>
-                    <p className="text">{intro}</p>
-                    <p className="text">{callToAction}</p>
+                <h1 className="name">Brett Berry</h1>
+                <div className="horizontalRule"/>
+                <div className="introSection">
+                    <div style={{ backgroundImage: 'url(/images/profilepic.jpg)' }}
+                         className="profilePic"/>
+                    <div className="textContainer">
+                        <h2 className="welcome">Hey there, I'm Brett!</h2>
+                        <p className="text">{intro}</p>
+                        <p className="text">{callToAction}</p>
+                    </div>
                 </div>
+                <div className="horizontalRule"/>
             </div>
         );
     }

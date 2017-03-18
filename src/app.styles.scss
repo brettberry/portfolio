@@ -1,48 +1,10 @@
 @import './constants';
 
-.linksContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 25px 200px;
-
-    .pageNavigation {
-        font-size: 0.9em;
-        margin: 0;
-        color: $gray;
-        cursor: pointer;
-
-        &:hover {
-            color: $teal;
-        }
-    }
-
-    .githubIcon {
-        width: 25px;
-        height: 25px;
-        fill: $gray;
-
-        &:hover {
-            cursor: pointer;
-            fill: $teal;
-        }
-    }
-}
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.name {
-    @include main-header-style;
-
-    @include mobile {
-        font-size: 4em;
-    }
 }
 
 .horizontalRule {
@@ -51,84 +13,8 @@
     background-color: $teal;
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px 0;
-    width: 90%;
-
-    .subheader {
-        @include section-header-style;
-        width: 100%;
-        padding: 0 10px;
-        text-align: left;
-
-        @include mobile {
-            font-size: 2em;
-            text-align: center;
-        }
-    }
-
-    .text {
-        text-align: center;
-    }
-}
-
-.footerContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sourceContainer {
-    display: flex;
-    margin: 20px 0;
-    cursor: pointer;
-
-    &:hover {
-        .icon {
-            fill: $teal;
-        }
-
-        .footer {
-            color: $teal;
-        }
-    }
-
-    .footer {
-        color: $gray;
-        font-size: 1em;
-        margin: 0;
-    }
-
-    .icon {
-        width: 15px;
-        height: 15px;
-        fill: $gray;
-        margin: 0 5px;
-    }
-}
-
-.contactContainer {
-    display: flex;
-    justify-content: space-around;
-
-    .contactIcon {
-        width: 50px;
-        height: 50px;
-        fill: $teal;
-    }
-}
-
 .link {
     text-decoration: none;
-}
-
-.cap {
-    width: 50px;
-    height: 50px;
-    fill: $teal;
 }
 
 p {

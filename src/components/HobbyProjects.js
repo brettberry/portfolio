@@ -4,7 +4,7 @@ import map from 'lodash/map';
 import ProjectCollection from '~/models/ProjectCollection';
 import Project from './Project';
 import data from '~/data.json';
-import '~/app.styles.scss';
+import './freelanceAndHobbyProjects.styles.scss';
 
 const projects = new ProjectCollection(data.hobby);
 
@@ -24,6 +24,7 @@ class HobbyProjects extends Component {
                              key={key}/>
                 )}
                 </div>
+                <div className="horizontalRule"/>
             </div>
         );
     }

@@ -14,6 +14,7 @@ class Contact extends Component {
                         <h3 className="contact">brett.elizabeth.berry@gmail.com</h3>
                     </div>
                 </div>
+                <div className="horizontalRule"/>
             </div>
         );
     }

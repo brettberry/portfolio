@@ -2,19 +2,35 @@
 
 .welcomeSection {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 25px 0;
-    width: 90%;
+    width: 100%;
 
     .welcome {
         @include section-header-style;
         text-align: center;
+        margin: 15px;
 
         @include mobile {
             font-size: 2em;
         }
     }
+}
+
+.name {
+    @include main-header-style;
+
+    @include mobile {
+        font-size: 4em;
+    }
+}
+
+.introSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 
     @include mobile {
         flex-direction: column;
@@ -42,7 +58,7 @@
 .textContainer {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 60%;
     margin: 25px;
 
     @include mobile {
