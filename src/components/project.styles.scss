@@ -60,6 +60,7 @@
         color: $gray;
         text-align: left;
         margin: 0;
+        white-space: nowrap;
     }
 }
 
@@ -98,11 +99,7 @@
     margin: 5px;
 
     .tag {
-        font-size: 0.8em;
-        font-weight: 100;
-        text-align: center;
-        text-transform: lowercase;
-        color: white;
+        @include tag-style;
         white-space: nowrap;
     }
 }

@@ -8,7 +8,7 @@ class Welcome extends Component {
     render() {
         return (
             <div className="welcomeSection">
-                <h1 className="name">Brett Berry</h1>
+                <h1 className="animated bounce name">Brett Berry</h1>
                 <div className="horizontalRule"/>
                 <div className="introSection">
                     <div style={{ backgroundImage: 'url(/images/profilepic.jpg)' }}

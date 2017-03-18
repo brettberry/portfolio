@@ -1,0 +1,52 @@
+@import '../constants';
+
+.aboutMe {
+    width: 90%;
+    font-size: 1.25em;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.hobbyLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+
+    @include mobile {
+        margin-bottom: 20px;
+    }
+
+    .hobby {
+        margin-bottom: 10px;
+        color: $gray;
+    }
+
+    .hobbyIcon {
+        width: 30px;
+        height: 30px;
+        fill: $gray;
+        margin: 0 10px;
+    }
+
+    &:hover {
+        .hobbyIcon {
+            fill: $teal;
+        }
+
+        .hobby {
+            color: $teal;
+        }
+    }
+}

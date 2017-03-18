@@ -6,7 +6,7 @@
             "date": "October 2016 - Present",
             "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
             "github": "https://github.com/brettberry/bgc",
-            "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with full page product pages, search, product categories,  an easily accessible shopping cart, a video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a login for wholesale retailers to replace their current fax and phone system. The project is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explore coming soon.",
+            "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with full page product pages, search, product categories,  an easily accessible shopping cart, a video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a login for wholesale retailers to replace their current fax and phone system. *The project is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explorer coming soon.",
             "tech": ["React", "Braintree Payment API", "React Router", "Immutable", "Sass"]
         },
         {
@@ -25,7 +25,7 @@
             "demo": "",
             "github": "",
             "description": "",
-            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App"]
+            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass"]
         },
         {
             "title": "Energy Code Etching App",
@@ -59,7 +59,7 @@
             "date": "September 2016",
             "demo": "",
             "github": "https://github.com/brettberry/archeryShooter",
-            "description": "Further exploration of SpriteKit...",
+            "description": "For further exploration of SpriteKit, I built a simple archery target shooting game that included ",
             "tech": ["Swift", "SpriteKit"]
         }
     ]

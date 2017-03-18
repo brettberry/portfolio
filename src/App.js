@@ -1,7 +1,8 @@
 
 import React, { Component } from 'react';
 
-import { Welcome, FreelanceProjects, HobbyProjects, Education, Hobbies, Contact, PageNavigation, Footer } from '~/components';
+import { Welcome, FreelanceProjects, HobbyProjects, Education,
+         Hobbies, Contact, PageNavigation, Footer } from '~/components';
 import './app.styles.scss';
 
 class App extends Component {

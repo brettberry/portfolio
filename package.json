@@ -13,6 +13,7 @@
   "license": "MIT",
   "repository": "https://github.com/caldera-design/web-boilerplate.git",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "bluebird": "^3.4.1",
     "classnames": "2.2.5",
     "core-decorators": "^0.15.0",

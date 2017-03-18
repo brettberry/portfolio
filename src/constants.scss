@@ -4,43 +4,82 @@
 $gray: #999;
 $teal: #00A899;
 
-@mixin main-header-style {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 5em;
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: $teal;
-}
-
-@mixin section-header-style {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5em;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: $teal;
-}
-
-@mixin subheader-style {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.25em;
-    font-weight: 300;
-    letter-spacing: 2px;
-    color: $teal;
-    text-align: center;
-}
-
-@mixin text-style {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    font-weight: 100;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    color: $teal;
+@mixin retina {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
 }
 
 @mixin mobile {
   @media all and (max-width: 850px) {
     @content;
   }
+}
+
+@mixin main-header-style {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6em;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: $teal;
+
+    @include retina {
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+    }
+}
+
+@mixin section-header-style {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: $teal;
+
+    @include retina {
+      -webkit-font-smoothing: antialiased;
+      font-weight: 500;
+    }
+}
+
+@mixin subheader-style {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: $teal;
+    text-align: center;
+
+    @include retina {
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+    }
+}
+
+@mixin text-style {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: $teal;
+
+    @include retina {
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+    }
+}
+
+@mixin tag-style {
+    font-size: 0.8em;
+    font-weight: 200;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+
+    @include retina {
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+    }
 }
