@@ -20,6 +20,7 @@ class HobbyProjects extends Component {
                              description={project.getDescription()}
                              demo={project.getDemo()}
                              github={project.getGithub()}
+                             image={project.getImage()}
                              tags={project.getTech()}
                              key={key}/>
                 )}

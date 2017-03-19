@@ -3,14 +3,17 @@
 .aboutMe {
     width: 90%;
     font-size: 1.25em;
-    margin-bottom: 50px;
     text-align: left;
+    margin: 20px 0;
 }
 
 .hobbies {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 90%;
+    margin-bottom: 50px;
 
     @include mobile {
         flex-direction: column;
@@ -22,22 +25,23 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 50px;
 
     @include mobile {
         margin-bottom: 20px;
     }
 
     .hobby {
-        margin-bottom: 10px;
+        font-size: 1.2em;
+        margin: 5px;
         color: $gray;
     }
 
     .hobbyIcon {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         fill: $gray;
-        margin: 0 10px;
+        margin: 0;
+        margin-right: 5px;
     }
 
     &:hover {

@@ -9,14 +9,17 @@ class Project extends Component {
     static propTypes = {
         title: PropTypes.string,
         clients: PropTypes.string,
-        status: PropTypes.string,
         date: PropTypes.string,
         description: PropTypes.string,
+        demo: PropTypes.string,
+        github: PropTypes.string,
+        tags: PropTypes.array,
+        image: PropTypes.string,
         key: PropTypes.number
     }
 
     render() {
-        const { title, clients, date, description, demo, github, tags, key } = this.props;
+        const { title, clients, date, description, demo, github, tags, image, key } = this.props;
         return (
             <div className="project" key={key}>
                 <h3>{title}</h3>
@@ -40,13 +43,16 @@ class Project extends Component {
                             </div>
                         </a>}
                     </div>
-                    <div className="tags">
-                    {map(tags, (tag, index) =>
-                        <div className="tagContainer" key={index}>
-                            <span className="tag">{tag}</span>
-                        </div>
-                    )}
+                    <div className="imageContainer">
+                        {!!image && <div className="image" style={{ backgroundImage: `url(/images/${image})` }}/>}
                     </div>
+                </div>
+                <div className="tags">
+                {map(tags, (tag, index) =>
+                    <div className="tagContainer" key={index}>
+                        <span className="tag">{tag}</span>
+                    </div>
+                )}
                 </div>
             </div>
         );

@@ -1,6 +1,9 @@
 @import '../constants';
 
 .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     @include subheader-style;
     width: calc(50% - 20px);
     border-radius: 12px;
@@ -103,4 +106,23 @@
         @include tag-style;
         white-space: nowrap;
     }
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.image {
+    width: 400px;
+    height: 325px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: $teal;
+    border-width: 2px;
+    border-radius: 10px;
 }

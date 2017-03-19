@@ -30,6 +30,10 @@ export default class ProductModel extends Model {
         return this.get('description');
     }
 
+    getImage() {
+        return this.get('image');
+    }
+
     getTech() {
         return this.get('tech');
     }

@@ -18,15 +18,15 @@ class Hobbies extends Component {
                 <div className="hobbies">
                     <a href="https://medium.com/i-math" target="_blank" className="hobbyLink">
                         <FaMedium className="hobbyIcon"/>
-                        <p className="hobby">Math Blog</p>
+                        <p className="hobby">math blog</p>
                     </a>
                     <a href="https://www.instagram.com/explore/tags/nellybellypup/" target="_blank" className="hobbyLink">
                         <FaPaw className="hobbyIcon"/>
-                        <p className="hobby">Puppy Pics</p>
+                        <p className="hobby">puppy pics</p>
                     </a>
                     <a href="https://www.instagram.com/bretteberry/" target="_blank" className="hobbyLink">
                         <FaInstagram className="hobbyIcon"/>
-                        <p className="hobby">Me</p>
+                        <p className="hobby">me</p>
                     </a>
                 </div>
                 <div className="horizontalRule"/>
