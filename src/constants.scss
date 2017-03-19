@@ -23,6 +23,9 @@ $teal: #00A899;
     font-weight: 200;
     letter-spacing: 2px;
     color: $teal;
+    &::selection {
+        background-color: rgba($teal, 0.3);
+    }
 
     @include retina {
       -webkit-font-smoothing: antialiased;
@@ -36,6 +39,9 @@ $teal: #00A899;
     font-weight: 200;
     letter-spacing: 2px;
     color: $teal;
+    &::selection {
+        background-color: rgba($teal, 0.3);
+    }
 
     @include retina {
       -webkit-font-smoothing: antialiased;
@@ -50,6 +56,9 @@ $teal: #00A899;
     letter-spacing: 2px;
     color: $teal;
     text-align: center;
+    &::selection {
+        background-color: rgba($teal, 0.3);
+    }
 
     @include retina {
       -webkit-font-smoothing: antialiased;
@@ -64,6 +73,10 @@ $teal: #00A899;
     letter-spacing: 2px;
     line-height: 1.5;
     color: $teal;
+
+    &::selection {
+        background-color: rgba($teal, 0.3);
+    }
 
     @include retina {
       -webkit-font-smoothing: antialiased;

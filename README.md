@@ -1,4 +1,4 @@
-Web boilerplate
+Brett Berry
 ---------------
 
-A simple front end boilerplate with Babel, Webpack, Radium, and React.
+My Personal Portfolio & Resume.

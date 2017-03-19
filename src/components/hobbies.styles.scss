@@ -40,6 +40,7 @@
         font-size: 1.2em;
         margin: 5px;
         color: $gray;
+        transition: all 0.4s ease;
     }
 
     .hobbyIcon {
@@ -48,6 +49,7 @@
         fill: $gray;
         margin: 0;
         margin-right: 5px;
+        transition: all 0.4s ease;
     }
 
     &:hover {
