@@ -6,7 +6,7 @@
             "date": "October 2016 - Present",
             "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
             "github": "https://github.com/brettberry/bgc",
-            "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with a fresh design, full page product views, search, product categories, an easily accessible shopping cart, video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a separate login for wholesale retailers to replace their current fax and phone system. *The demo is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explorer coming soon.",
+            "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with a fresh design, full page product previews, search, product categories to filter by, an easily accessible shopping cart, video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a separate login for wholesale retailers to replace their current fax and phone system. (The demo is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explorer coming soon.)",
             "tech": ["React", "Braintree Payment API", "React Router", "Immutable", "Sass"]
         },
         {
@@ -15,7 +15,7 @@
             "date": "February 2017 - Present",
             "demo": "",
             "github": "",
-            "description": "For this project our client requested a simplified version of Adobe Illustrator with editable, scalable, and rotatable path drawing, text inputs, and clip art he can upload from an admin panel to run on touchscreens for his on-site laser engraving business. To do this we utilized react and webgl to create an interactive doodle web app with custom path and text drawing mechanics that can be exported to svg or png as desired.",
+            "description": "For this project our client requested a simplified version of Adobe Illustrator with editable, scalable, and rotatable path drawing, text, and clip art, he can upload from an admin panel, to run on touchscreens for his on-site laser engraving business. To do this we utilized react and webgl to create an interactive doodle web app with custom path and text drawing that can be exported to svg or png as desired. The app also includes a preference panel so that he can change the clip art, text fonts, stroke width of the drawing paths, and accent colors throughout the app.",
             "tech": ["WebGL", "React", "Redux", "Radium", "Immutable", "Electron App"]
         },
         {
@@ -43,7 +43,7 @@
             "date": "October 2016",
             "demo": "https://brettberry.github.io/List-Web-App/",
             "github": "https://github.com/brettberry/List-Web-App",
-            "description": "My spin on the obligatory to do list web app, but with emojis and handy  date-separated interface. Best part it uses local storage, so go ahead open it up, bookmark it, list and conquer!",
+            "description": "My spin on the obligatory to do list web app, but with emojis and handy  date-separated interface. Best part it uses local storage, so go ahead open it up, bookmark it, list and conquer! (Currently supported in Chrome Desktop)",
             "image": "toDoList.png",
             "tech": ["React", "Redux", "Local Forage", "Moment"]
         },
