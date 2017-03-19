@@ -24,7 +24,7 @@
             "date": "January 2017",
             "demo": "",
             "github": "",
-            "description": "For this project, our client partnered with Jeep and the X-Games to combine social media and branding to create tangible, laser engraved, take-home gifts. To make this possible, we created a custom web app that ran on large touchscreens at the X-Games that enabled attendees to easily find and select their Instagram and Twitter photos tagged with the event hashtag and send them to the on-site laser engraver for printing on a take home gift.",
+            "description": "For this project, our client partnered with Jeep and the X-Games to combine social media and branding to create tangible, laser engraved, take-home gifts. To make this possible, we created a custom web app that ran on large touchscreens at the X-Games that enabled attendees to easily find and select their Instagram and Twitter photos tagged with the event hashtag and send them to the on-site laser engraver for printing.",
             "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass", "React Router"]
         },
         {
