@@ -5,71 +5,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include dark-mode {
+      background-color: $dark-gray;
+    }
 }
 
 .darkmodeContainer {
-  position: fixed;
-  top: 150px;
-  right: -50px;
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  z-index: 10;
-
   .tab {
-    width: 75px;
+    width: 150px;
     height: 75px;
     position: fixed;
-    top: 150px;
-    right: 0;
+    top: 100px;
+    right: -120px;
+    padding: 0 10px;
     border-style: solid;
     border-width: 1px 0 1px 1px;
     border-color: $light-gray;
     border-radius: 5px 0 0 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-
-    &:hover {
-      border-color: $gray;
-
-      .icon {
-        fill: $gray;
-      }
-    }
-  }
-
-  .tabExpanded {
-    position: fixed;
-    top: 150px;
-    right: -75px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: $light-gray;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
-    width: 75px;
-    height: 200px;
     background-color: white;
+    transition: right 0.5s ease-in;
 
     &:hover {
       border-color: $gray;
-
-      .icon {
-        fill: $gray;
-      }
-    }
-  }
-
-  .showThemeMenu {
-    .tabExpanded {
       right: 0;
-      transition: right 0.4s ease-in;
+      transition: right 0.5s ease-in;
+    }
+
+    @include dark-mode {
+      background-color: $dark-gray;
     }
   }
 
@@ -79,6 +46,14 @@
     fill: $light-gray;
     margin: 5px;
     cursor: pointer;
+
+    &:hover {
+      fill: $teal;
+    }
+
+    &.active {
+      fill: $teal;
+    }
   }
 }
 

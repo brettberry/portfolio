@@ -7,6 +7,10 @@
     align-items: center;
     width: 100%;
     padding-top: 75px;
+    
+    @include dark-mode {
+      background-color: $dark-gray;
+    }
 
     .welcome {
         @include section-header-style;

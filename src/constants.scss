@@ -1,6 +1,4 @@
 
-/*export const isProduction = process.env.NODE_ENV === 'production';*/
-
 $teal: #00A899;
 $gray: #999;
 $light-gray: #D7D7D7;
@@ -55,6 +53,10 @@ $dark-gray: #262626;
         background-color: rgba($teal, 0.3);
     }
 
+    @include dark-mode {
+      color: $light-gray;
+    }
+
     @include retina {
       -webkit-font-smoothing: antialiased;
       font-weight: 500;
@@ -72,6 +74,10 @@ $dark-gray: #262626;
 
     &::selection {
         background-color: rgba($teal, 0.3);
+    }
+
+    @include dark-mode {
+      color: $light-gray;
     }
 
     @include retina {
@@ -92,6 +98,10 @@ $dark-gray: #262626;
         background-color: rgba($teal, 0.3);
     }
 
+    @include dark-mode {
+      color: $light-gray;
+    }
+
     @include retina {
       -webkit-font-smoothing: antialiased;
       font-weight: 400;
@@ -104,6 +114,11 @@ $dark-gray: #262626;
     text-align: center;
     text-transform: lowercase;
     color: white;
+
+    @include dark-mode {
+      color: $dark-gray;
+      font-weight: 400;
+    }
 
     @include retina {
       -webkit-font-smoothing: antialiased;

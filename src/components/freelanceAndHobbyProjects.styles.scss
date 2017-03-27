@@ -8,6 +8,10 @@
     width: 100%;
     padding-top: 25px;
 
+    @include dark-mode {
+      background-color: $dark-gray;
+    }
+
     .projectContainer {
         display: flex;
         flex-basis: 50%;
@@ -15,6 +19,10 @@
         width: 90%;
         margin-bottom: 50px;
         flex: 1;
+
+        @include dark-mode {
+          background-color: $dark-gray;
+        }
 
         @include mobile {
             justify-content: center;

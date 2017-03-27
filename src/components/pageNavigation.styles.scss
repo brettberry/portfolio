@@ -26,6 +26,14 @@
         &:hover {
             color: $teal;
         }
+
+        @include dark-mode {
+          color: $light-gray;
+
+          &:hover {
+              color: $teal;
+          }
+        }
     }
 
     .githubIcon {
@@ -36,6 +44,14 @@
         &:hover {
             cursor: pointer;
             fill: $teal;
+        }
+
+        @include dark-mode {
+          fill: $light-gray;
+
+          &:hover {
+              fill: $teal;
+          }
         }
     }
 }

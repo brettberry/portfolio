@@ -41,7 +41,7 @@
         {
             "title": "Aww Subreddit",
             "date": "March 2017",
-            "demo": "https://reddit.brettberry.me",
+            "demo": "http://reddit.brettberry.me",
             "github": "https://github.com/brettberry/RedditFeed",
             "description": "A cute little feed especially built for r/aww. Features swipe right and left functionality to upvote and downvote, as well as views to see all your votes!",
             "tech": ["React", "ES6", "Bluebird", "Material UI", "Immutable.js"]

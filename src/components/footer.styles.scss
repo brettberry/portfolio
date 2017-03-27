@@ -1,15 +1,18 @@
 @import '../constants';
 
+.footerContainer {
+  padding: 20px;
+
+  @include dark-mode {
+    background-color: $dark-gray;
+  }
+}
+
 .sourceContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
     cursor: pointer;
-
-    @include dark-mode {
-      background-color: black;
-    }
 
     &:hover {
         .icon {

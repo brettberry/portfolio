@@ -4,6 +4,7 @@ import './footer.styles.scss';
 
 function Footer() {
     return (
+      <div className="footerContainer">
         <a target="_blank"
            className="link"
            href="https://github.com/brettberry/portfolio">
@@ -13,6 +14,7 @@ function Footer() {
                 <FaCode className="icon"/>
             </div>
         </a>
+      </div>
     );
 }
 
