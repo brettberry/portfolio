@@ -24,7 +24,7 @@ class PageNavigation extends Component {
 
     render() {
         return (
-            <div className="container" id="top">
+            <div className="container">
                 {this.state.isDesktop ? this.renderDesktopNavigation() : this.renderMobileNavigation()}
                 <div className="horizontalRule"/>
             </div>

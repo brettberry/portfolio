@@ -7,7 +7,7 @@
             "demo": "http://berry.game.calls.s3-website-us-west-2.amazonaws.com/",
             "github": "https://github.com/brettberry/bgc",
             "description": "I am currently working on building a custom website to meet the needs of my parents' family business. The new site aims to improve user experience with a fresh design, full page product previews, search, product categories to filter by, an easily accessible shopping cart, video and photo gallery, returning customer login, and a secure checkout. The full scope of the project will include a separate login for wholesale retailers to replace their current fax and phone system. (The demo is currently supported in both mobile and desktop Chrome, Firefox and Safari with support for Edge and Internet Explorer coming soon.)",
-            "tech": ["React", "Braintree Payment API", "React Router", "Immutable", "Sass"]
+            "tech": ["React", "Braintree Payment API", "ES6", "React Router", "Immutable.js", "Sass"]
         },
         {
             "title": "Doodle App",
@@ -16,7 +16,7 @@
             "demo": "",
             "github": "",
             "description": "For this project our client requested a simplified version of Adobe Illustrator with editable, scalable, and rotatable path drawing, text, and clip art, he can upload from an admin panel, to run on touchscreens for his on-site laser engraving business. To do this we utilized react and webgl to create an interactive doodle web app with custom path and text drawing that can be exported to svg or png as desired. The app also includes a preference panel so that he can change the clip art, text fonts, brush stroke width, and accent color throughout the app.",
-            "tech": ["WebGL", "React", "Redux", "Radium", "Immutable", "Electron App"]
+            "tech": ["WebGL", "React", "Redux", "Radium", "Immutable.js", "Electron App", "ES6"]
         },
         {
             "title": "Instagram & Twitter Event Photo App",
@@ -25,7 +25,7 @@
             "demo": "",
             "github": "",
             "description": "For this project, our client partnered with Jeep and the X-Games to combine social media and branding to create tangible, laser engraved, take-home gifts. To make this possible, we created a custom web app that ran on large touchscreens at the X-Games that enabled attendees to easily find and select their Instagram and Twitter photos tagged with the event hashtag and send them to the on-site laser engraver for printing.",
-            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass", "React Router"]
+            "tech": ["React", "Instagram API", "Twitter API", "Material UI", "Electron App", "Sass", "React Router", "ES6"]
         },
         {
             "title": "Energy Code Etching",
@@ -34,18 +34,25 @@
             "demo": "",
             "github": "",
             "description": "Our client needed a quick, user friendly solution for collecting and managing client energy codes in a spreadsheet and within a tight budget, so we built them a simple static website with some regex-formatted fields, to ensure correct code entry, that connected to their spreadsheet using Google Sheets API.",
-            "tech": ["React", "Google Sheets API", "Bootstrap", "regex"]
+            "tech": ["React", "Google Sheets API", "Bootstrap", "regex", "ES6"]
         }
     ],
     "hobby": [
+        {
+            "title": "Aww Subreddit",
+            "date": "March 2017",
+            "demo": "https://reddit.brettberry.me",
+            "github": "https://github.com/brettberry/RedditFeed",
+            "description": "A cute little feed especially built for r/aww. Features swipe right and left functionality to upvote and downvote, as well as views to see all your votes!",
+            "tech": ["React", "ES6", "Bluebird", "Material UI", "Immutable.js"]
+        },
         {
             "title": "To Do Web App",
             "date": "October 2016",
             "demo": "https://brettberry.github.io/List-Web-App/",
             "github": "https://github.com/brettberry/List-Web-App",
             "description": "My spin on the obligatory to do list web app, but with emojis and handy  date-separated interface. Best part it uses local storage, so go ahead open it up, bookmark it, list and conquer! (Currently supported in Chrome Desktop)",
-            "image": "toDoList.png",
-            "tech": ["React", "Redux", "Local Forage", "Moment"]
+            "tech": ["React", "Redux", "Local Forage", "Moment", "ES6"]
         },
         {
             "title": "Archey Target iOS App",
@@ -53,7 +60,6 @@
             "demo": "",
             "github": "https://github.com/brettberry/archeryShooter",
             "description": "As a further exploration of SpriteKit, I built a simple archery target shooting game that includes gesture recognizers to calculate the direction and velocity of the arrow, scores the arrow based on the ring hit, and after level one has a moving target that gets increasingly faster.",
-            "image":"archeryApp.png",
             "tech": ["Swift", "SpriteKit"]
         },
         {

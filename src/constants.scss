@@ -1,8 +1,18 @@
 
 /*export const isProduction = process.env.NODE_ENV === 'production';*/
 
-$gray: #999;
 $teal: #00A899;
+$gray: #999;
+$light-gray: #D7D7D7;
+$dark-gray: #262626;
+
+@mixin dark-mode {
+  @at-root {
+    .dark-mode & {
+      @content;
+    }
+  }
+}
 
 @mixin retina {
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -23,6 +33,7 @@ $teal: #00A899;
     font-weight: 200;
     letter-spacing: 2px;
     color: $teal;
+
     &::selection {
         background-color: rgba($teal, 0.3);
     }
@@ -39,6 +50,7 @@ $teal: #00A899;
     font-weight: 200;
     letter-spacing: 2px;
     color: $teal;
+
     &::selection {
         background-color: rgba($teal, 0.3);
     }
@@ -56,6 +68,8 @@ $teal: #00A899;
     letter-spacing: 2px;
     color: $teal;
     text-align: center;
+    margin-top: 75px;
+
     &::selection {
         background-color: rgba($teal, 0.3);
     }
